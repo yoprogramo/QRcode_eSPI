@@ -1,0 +1,28 @@
+{
+  "name": "QRcode_eSPI",
+  "version": "1.0.0",
+  "keywords": "qr code, ESP32, ESP8266, TFT, TFT_eSPI",
+  "description": "QR code generation for TFT displays",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/yoprogramo/QRcode_eSPI"
+  },
+  "authors":
+  [
+    {
+      "name": "Ruslan Baybekov",
+      "url": "https://github.com/oxyii"
+    },
+    {
+        "name": "Jose Antonio Espinosa",
+        "email": "yoprogramo@gmail.com",
+        "url": "https://yoprogramo.com"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ]
+}
