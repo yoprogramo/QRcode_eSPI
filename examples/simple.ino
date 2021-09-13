@@ -1,8 +1,4 @@
 
-#define TFT_RST   25    
-#define TFT_CS    5     
-#define TFT_DC    26    
-
 #include <SPI.h>
 #include <TFT_eSPI.h>
 #include <qrcode_eSPI.h>
