@@ -3,8 +3,6 @@
 #include <TFT_eSPI.h>
 #include <qrcode_eSPI.h>
 
-#define TFTMODEL INITR_144GREENTAB
-
 TFT_eSPI display = TFT_eSPI();
 QRcode_eSPI qrcode (&display);
 
@@ -17,7 +15,7 @@ void setup() {
 
     // enable debug qrcode
     // qrcode.debug();
-    display.begin();
+    display.init();
     // Initialize QRcode display using library
     qrcode.init();
     // create qrcode
