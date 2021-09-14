@@ -1,7 +1,7 @@
 
 #include <SPI.h>
 #include <TFT_eSPI.h>
-#include <qrcode_eSPI.h>
+#include <qrcode_espi.h>
 
 TFT_eSPI display = TFT_eSPI();
 QRcode_eSPI qrcode (&display);
