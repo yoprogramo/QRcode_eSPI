@@ -45,5 +45,6 @@ void setup() {
 }
 
  ```
+Main code provided by Ruslan Baybekov (https://github.com/oxyii)
 
- For other displays, please refer the main repository: https://github.com/yoprogramo/QRcodeDisplay
+For other displays, please refer the main repository: https://github.com/yoprogramo/QRcodeDisplay
