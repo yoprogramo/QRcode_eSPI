@@ -21,6 +21,12 @@ void QRcode_eSPI::init() {
     offsetsY = (screenheight-(WD*multiply))/2;
 }
 
+void QRcode_eSPI::create(String message) {
+  display->startWrite();
+  QRcodeDisplay::create(message);
+  display->endWrite();
+}
+
 void QRcode_eSPI::screenwhite() {
     display->fillScreen(TFT_WHITE);
 }
