@@ -37,8 +37,6 @@ void QRcode_eSPI::drawPixel(int x, int y, int color) {
     }
     display->drawPixel(x,y,color);
     if (this->multiply>1) {
-        display->drawPixel(x+1,y,color);
-        display->drawPixel(x+1,y+1,color);
-        display->drawPixel(x,y+1,color);
+        display->fillRect(x,y,multiply,multiply,color);
     }
 }
