@@ -1,7 +1,7 @@
 {
   "name": "QRcode_eSPI",
-  "version": "1.0.0",
-  "keywords": "qr code, ESP32, ESP8266, TFT, TFT_eSPI",
+  "version": "1.0.1",
+  "keywords": "qr code, ESP32, ESP8266, TFT, TFT eSPI",
   "description": "QR code generation for TFT displays",
   "repository":
   {
