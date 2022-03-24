@@ -8,7 +8,7 @@
 
 #include <TFT_eSPI.h>
 #include <SPI.h>
-#include "qrcode.h"
+#include "qrcodedisplay.h"
 
 class QRcode_eSPI : public QRcodeDisplay
 {
